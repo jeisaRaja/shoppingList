@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="/dashboard.html" aria-current="page">Shopping List</a>
+    </nav>
+    <div class="modal">
+      <form class="form">
+        <label for="nama_barang">Nama Barang</label>
+        <input type="text" name="nama_barang" required />
+        <label for="harga_barang">Harga Barang</label>
+        <input type="number" name="harga_barang" required />
+        <button type="submit">Add Item</button>
+      </form>
+      <div class="modal_bg"></div>
+    </div>
+    <main class="container">
+      <h1>Shopping List</h1>
+      <button class="float_button">+</button>
+      <div class="list_item_div"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
